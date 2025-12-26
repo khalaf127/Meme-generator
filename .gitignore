@@ -1,1 +1,3 @@
 scripts/intellijOpen.sh
+# Node modules
+frontend/node_modules/
