@@ -21,7 +21,7 @@ export default function MemePage() {
   const [view, setView] = useState<"upload" | "gallery">("upload")
   const { toast } = useToast()
 
-  const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8080"
+  const API_BASE_URL = "/api/backend"
 
   const handleDragOver = useCallback((e: React.DragEvent) => {
     e.preventDefault()
